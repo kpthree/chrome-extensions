@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Always on top - any site",
+    "description": "Open any url and keep it always on top",
+    "version": "1.0",
+    "app": {
+        "background": {
+            "scripts": ["js/action.js"]
+        }
+    },
+    "permissions": ["alwaysOnTopWindows", "webview"],
+    "icons": {
+      "16": "images/send-to-front-button.png",
+      "64": "images/send-to-front-button-64.png",
+      "128": "images/send-to-front-button-128.png",
+      "256": "images/send-to-front-button-256.png",
+      "512": "images/send-to-front-button-512.png"
+    }
+}
