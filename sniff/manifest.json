@@ -1,0 +1,28 @@
+{
+  "name": "Sniff",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Sniff web traffic",
+  "homepage_url": "https://kpthree.github.io",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+       "matches": ["https://apps.shopify.com/*"],
+       "js": ["inject.js"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "Sniff!"
+  },
+  "permissions": [
+    "webRequest",
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}

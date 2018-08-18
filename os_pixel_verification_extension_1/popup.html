@@ -1,0 +1,267 @@
+<html>
+<head>
+    <title>popup</title>
+</head>
+<body>
+<style type="text/css">
+    body {margin: 15px;}
+    h4 {margin:0 0 15px; padding: 0 0 10px; border-bottom: solid 1px #eaeaea; font-size: 16px; font-weight: 400; color: #4a4a4a;}
+    .tg {
+        width: 100%;
+        max-width: 100%;
+        border-spacing: 0;
+        border-collapse: collapse;
+        font-size: 13px;
+        font-weight: 400;
+        color: #5a5a5a;
+    }
+    .tg>thead>tr>th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #ddd;
+        font-size: 14px;
+        font-weight: 500;
+        color: #5a5a5a;
+    }
+    .tg>thead>tr>th {
+        padding: 10px;
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 1px solid #ddd;
+    }
+    .tg>thead:first-child>tr:first-child>th {
+        border-top: 0;
+        text-align: left;
+    }
+    .tg.table-striped>tbody>tr:nth-of-type(odd) {
+        background-color: #f9f9f9;
+    }
+    .tg>tbody>tr>td {
+        padding: 10px;
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 1px solid #ddd;
+    }
+</style>
+<h3 style="display:none"></h3>
+<input type="button" value="Refresh" id = "refresh" style="float: right;">
+<h4>OS pixel details</h4>
+<p id="_sok_default_pixels"></p>
+<div id="_sok_viewProduct" style="display:none">
+        <h4 class="_sok_leadstep">OS pixel details</h4>
+    <table class="tg table-striped">
+        <thead>
+            <tr>
+                <th class="tg-97fk">sku_id</th>
+                <th class="_sok_sku_id"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tg-97fk">sku_url</td>
+                <td class="_sok_sku_url"></td>
+            </tr>
+            <tr>
+                <td class="tg-97fk" >product_names</td>
+                <td class="_sok_product_names"></td>
+            </tr>
+            <tr>
+                <td class="tg-97fk" >product_quantities</td>
+                <td class="_sok_product_quantities"></td>
+            </tr>
+            <tr>
+                <td class="tg-97fk">product_prices</td>
+                <td class = "_sok_product_prices"></td>
+            </tr>
+            <tr>
+                <td class="tg-97fk">product_imageurl</td>
+                <td class="_sok_product_imageurl"></td>
+            </tr>
+            <tr>
+                <td class="tg-97fk">breadcrumb</td>
+                <td class="_sok_breadcrumb"></td>
+            </tr>
+            <tr>
+                <td class="tg-97fk">currency</td>
+                <td class = "_sok_currency"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div id="_sok_add2cart" style="display:none">
+    <h4 class="_sok_leadstep">OS pixel details</h4>
+<table class="tg table-striped">
+    <thead>
+        <tr>
+            <th class="tg-97fk">sku_id</th>
+            <th class="_sok_sku_id"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="tg-97fk">sku_url</td>
+            <td class="_sok_sku_url"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk" >product_names</td>
+            <td class="_sok_product_names"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk" >product_quantities</td>
+            <td class="_sok_product_quantities"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">product_prices</td>
+            <td class = "_sok_product_prices"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">product_imageurl</td>
+            <td class="_sok_product_imageurl"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">breadcrumb</td>
+            <td class="_sok_breadcrumb"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">currency</td>
+            <td class = "_sok_currency"></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div id="_sok_revieworder" style="display:none">
+    <h4 class="_sok_leadstep">OS pixel details</h4>
+<table class="tg table-striped">
+    <thead>
+        <tr>
+            <th class="tg-97fk">sku_id</th>
+            <th class="_sok_sku_id"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="tg-97fk">sku_url</td>
+            <td class="_sok_sku_url"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk" >product_names</td>
+            <td class="_sok_product_names"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk" >product_quantities</td>
+            <td class="_sok_product_quantities"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">product_prices</td>
+            <td class = "_sok_cartamount"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">currency</td>
+            <td class = "_sok_currency"></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div id="_sok_checkout" style="display:none">
+    <h4 class="_sok_leadstep">OS pixel details</h4>
+<table class="tg table-striped">
+    <thead>
+        <tr>
+            <th class="tg-97fk">sku_id</th>
+            <th class="_sok_sku_id"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="tg-97fk">sku_url</td>
+            <td class="_sok_sku_url"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk" >product_names</td>
+            <td class="_sok_product_names"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk" >product_quantities</td>
+            <td class="_sok_product_quantities"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">product_prices</td>
+            <td class = "_sok_cartamount"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">currency</td>
+            <td class = "_sok_currency"></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div id="_sok_salestart" style="display:none">
+    <h4 class="_sok_leadstep">OS pixel details</h4>
+<table class="tg table-striped">
+    <thead>
+        <tr>
+            <th class="tg-97fk">sku_id</th>
+            <th class="_sok_sku_id"></th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <td class="tg-97fk" >product_names</td>
+            <td class="_sok_product_names"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk" >product_quantities</td>
+            <td class="_sok_product_quantities"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">sales</td>
+            <td class = "_sok_sale"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">currency</td>
+            <td class = "_sok_currency"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">cust_email</td>
+            <td class = "_sok_cust_email"></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div id="_sok_salecomplete" style="display:none">
+    <h4 class="_sok_leadstep">OS pixel details</h4>
+<table class="tg table-striped">
+    <thead>
+        <tr>
+            <th class="tg-97fk">sku_id</th>
+            <th class="_sok_sku_id"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="tg-97fk" >product_names</td>
+            <td class="_sok_product_names"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk" >product_quantities</td>
+            <td class="_sok_product_quantities"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">sales</td>
+            <td class = "_sok_sale"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">currency</td>
+            <td class = "_sok_currency"></td>
+        </tr>
+        <tr>
+            <td class="tg-97fk">cust_email</td>
+            <td class = "_sok_cust_email"></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<script src="popup.js"></script>
+<script src="background_script.js"></script>
+</body>
+</html>

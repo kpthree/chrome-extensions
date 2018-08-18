@@ -1,0 +1,19 @@
+{
+  "name": "OS pixel helper",
+  "manifest_version": 2,
+  "version": "2",
+  "description": "The OS Pixel Helper is a troubleshooting tool that helps you validate your pixel implementation",
+  "icons": {
+    "128": "icon_16.png"
+  },
+  "background": {
+    "persistent": true,
+    "scripts": ["background_script.js"]
+  },
+  "permissions": ["https://t.o-s.io/*","webRequest","storage","contextMenus","management"],
+  "browser_action": {
+    "default_title": "fetch OS pixel details",
+    "default_icon": "icon_16.png",
+    "default_popup": "popup.html"
+  }
+}
